@@ -13,6 +13,6 @@
       }
     ],
     "env": {
-      "HUGGINGFACE_API_KEY": "@huggingface_api_key"
+      "huggingface_api_key": "@huggingface_api_key"
     }
   }

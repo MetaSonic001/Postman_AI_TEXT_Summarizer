@@ -24,7 +24,7 @@ async function summarizeText(text) {
         url: 'https://api-inference.huggingface.co/models/facebook/bart-large-cnn',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.HUGGINGFACE_API_KEY}`
+            'Authorization': `Bearer ${process.env.huggingface_api_key}`
         },
         data: data,
         timeout: 10000 // 10 seconds timeout
